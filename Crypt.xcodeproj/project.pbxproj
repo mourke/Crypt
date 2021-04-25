@@ -10,7 +10,6 @@
 		BD332AD7262E07910080FD96 /* CryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD332AD6262E07910080FD96 /* CryptApp.swift */; };
 		BD332AD9262E07910080FD96 /* FileLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD332AD8262E07910080FD96 /* FileLoaderView.swift */; };
 		BD332ADB262E07980080FD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD332ADA262E07980080FD96 /* Assets.xcassets */; };
-		BD332ADE262E07980080FD96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD332ADD262E07980080FD96 /* Preview Assets.xcassets */; };
 		BDB6D9AA26347B1100D852AE /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6D9A926347B1100D852AE /* UserTableView.swift */; };
 		BDB6D9AD26347C1D00D852AE /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6D9AC26347C1D00D852AE /* UserTableViewController.swift */; };
 		BDBF3EE9262ED443006FE901 /* UserGroupSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF3EE8262ED443006FE901 /* UserGroupSelectorView.swift */; };
@@ -27,7 +26,6 @@
 		BD332AD6262E07910080FD96 /* CryptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptApp.swift; sourceTree = "<group>"; };
 		BD332AD8262E07910080FD96 /* FileLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoaderView.swift; sourceTree = "<group>"; };
 		BD332ADA262E07980080FD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD332ADD262E07980080FD96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD332ADF262E07980080FD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD332AE0262E07980080FD96 /* Crypt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crypt.entitlements; sourceTree = "<group>"; };
 		BDB6D9A926347B1100D852AE /* UserTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
@@ -78,20 +76,11 @@
 				BD332ADA262E07980080FD96 /* Assets.xcassets */,
 				BD332ADF262E07980080FD96 /* Info.plist */,
 				BD332AE0262E07980080FD96 /* Crypt.entitlements */,
-				BD332ADC262E07980080FD96 /* Preview Content */,
 				BDBF3EEE262ED6DF006FE901 /* EncryptionHandler.swift */,
 				BDF6E569263180770066C9ED /* SecKey+CryptoKit.swift */,
 				BDF6E5762631F92D0066C9ED /* KeyManager.swift */,
 			);
 			path = Crypt;
-			sourceTree = "<group>";
-		};
-		BD332ADC262E07980080FD96 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BD332ADD262E07980080FD96 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BDBF3EEB262ED44D006FE901 /* Views */ = {
@@ -179,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD332ADE262E07980080FD96 /* Preview Assets.xcassets in Resources */,
 				BD332ADB262E07980080FD96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
